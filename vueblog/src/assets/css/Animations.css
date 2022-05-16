@@ -1,0 +1,32 @@
+.pageSwitch-enter-active
+{
+    animation: page-switch-in 0.7s;
+}
+.pageSwitch-leave-active
+{
+    animation: page-switch-out 0.7s;
+}
+@keyframes page-switch-in
+{
+    0% {
+        opacity: 0;
+    }
+    45% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+@keyframes page-switch-out
+{
+    0% {
+        opacity: 1;
+    }
+    55% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 0;
+    }
+}
